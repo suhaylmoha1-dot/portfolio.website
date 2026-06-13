@@ -1,0 +1,130 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+}
+
+nav .logo {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #00bfff;
+}
+
+/* Home */
+.home {
+    height: 100vh;
+    background: url('https://picsum.photos/1200/800') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+}
+
+.home .content h1 {
+    font-size: 50px;
+}
+
+.home .content span {
+    color: #00bfff;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #00bfff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* About */
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Skills */
+.skills {
+    padding: 50px;
+}
+
+.skills .bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.skills .bar span {
+    display: block;
+    height: 10px;
+    background: #00bfff;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+    padding: 50px;
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: white;
+}
